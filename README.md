@@ -1,5 +1,5 @@
-# Memory-efficient matching based on JGraphT
-A memory-efficient matching algorithm (Kuhn–Munkres and Hopcroft–Karp) implementation based on JGraphT in Java
+# JGraphT memory-efficient bipartite graph
+A [JGraphT](https://jgrapht.org/) memory-efficient bipartite graph implementation for matching algorithms (Kuhn–Munkres and Hopcroft–Karp) in Kotlin
 ## Introduction
 This repo includes a memory-efficient implementation of A bipartite graph based on [JGraphT](https://jgrapht.org/) and [Eclipse Collections](https://www.eclipse.org/collections/), along with examples on how to call optimal matching algorithms (assignment algorithms) such as Kuhn–Munkres algorithm (Hungarian algorithm) and Hopcroft–Karp algorithm on such a graph, intended to solve optimal matching problems for really large data on a single machine.
 
